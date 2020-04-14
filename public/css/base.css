@@ -1,0 +1,88 @@
+html {
+    text-align: left;
+    font-family: Geneva;
+    color:black;
+}
+#ulh{
+    background-color: rgb(36, 35, 35);
+    list-style: none;
+    padding: 0;
+
+}
+
+.linkh, #the, #hh, #lg{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#logo1a{
+    padding:0px;
+    padding-left:33%;
+    width:120px;
+    height:84px;
+    position: absolute;
+    float:left;
+}
+#logo1{
+    padding:0px;
+    padding-left:30%;
+    width:120px;
+    height:84px;
+    position: absolute;
+    float:left;
+}
+.linkh, #lg{
+    padding-top: 3.5%;
+    border-left-color: #636b6f;
+    border-left-style: solid;
+}
+#hh{
+    padding-top: 0.1%;
+}
+#logo{
+    position: absolute;
+    padding:0px;
+    padding-left:80%;
+    width:120px;
+    height:84px;
+    float:left;
+}
+
+
+footer{
+    background: #f0f0f0;
+
+    margin: -0.6%;
+
+    padding-right: 0px;
+    padding-left: 0px;
+
+    padding-bottom: 0.5%;
+
+    padding-top: 0.5%;
+}
+.fc{
+    font-size:15px;
+    padding-left: 2%;
+}
+#fl{
+    text-decoration: none;
+    color:black;
+}
+#cat{
+    padding-left: 2%;
+}
+header{
+    background-color: rgba(36, 35, 35,0.95);
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:-1px;
+}

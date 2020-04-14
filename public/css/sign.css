@@ -1,0 +1,46 @@
+#btn{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#formarea{
+    padding-top:8%;
+}
+#results{
+    border-style: solid;
+    border-color: #c82333;
+    background-color: #e4606d;
+    padding-bottom: 30px;
+}
+#ule {
+    list-style: none;
+    padding: 10px;
+}
+#cr{
+    height:70px;
+    padding: 10px;
+    float:left;
+}
+.note{
+    padding:10px;
+    font-size: 20px;
+    padding-bottom:5px;
+}
+.extra{
+    font-size: 10px;
+    color:dimgrey;
+}
+#extra2:link,#extra2:visited,#extra2:hover,#extra2:active{
+    text-decoration: none;
+    font-size: 15px;
+    color:dodgerblue;
+}
+
