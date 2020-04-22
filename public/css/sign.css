@@ -12,7 +12,8 @@
     border-radius: 5%;
 }
 #formarea{
-    padding-top:8%;
+    margin-right: 5%;
+    margin-left:5%;
 }
 #results{
     border-style: solid;
@@ -43,4 +44,6 @@
     font-size: 15px;
     color:dodgerblue;
 }
-
+#gap{
+    padding:5%;
+}

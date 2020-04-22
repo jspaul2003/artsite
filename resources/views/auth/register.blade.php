@@ -20,6 +20,28 @@
                <p class='extra'>This is required</p>
             </p>
             <br>
+            <p>Your Username
+                <input
+                        id='username'
+                        type='text'
+                        name='username'
+                        placeholder='Username'
+                        value='{{ old('username') }}'
+                        required>
+            </p>
+            <p class='extra'>This is what others will see</p>
+            <br>
+            <p>Your Email
+                <input
+                        id='email'
+                        type='email'
+                        name='email'
+                        placeholder='Email'
+                        value='{{ old('email') }}'
+                        required>
+            </p>
+            <p class='extra'>This is what you will use to login with</p>
+            <br>
             <p>Password
                 <input type="password"
                        name="password"
@@ -42,16 +64,10 @@
             <p class='extra'>This is required</p>
             </p>
             <br>
-            <p>Your Email
-                <input
-                id='email'
-                type='email'
-                name='email'
-                placeholder='Email'
-                value='{{ old('email') }}'
-                required>
-                <p class='extra'>This is what you will use to login with</p>
-            </p>
+            <input type="hidden"
+                   name="prof"
+                   value='default1'
+            >
             <br>
             <input type="submit" value='Join' id='btn'>
             <br>
@@ -61,8 +77,7 @@
     </section>
     @if(count($errors) > 0)
         <section id='results'>
-            <h2 class='note'>Uh Oh! </h2>
-            <img src='/img/cross.png' id='cr' alt='cross'>
+            <h2 class='note'>Uh oh! </h2>
             <ul id='ule'>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>

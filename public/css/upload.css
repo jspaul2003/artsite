@@ -1,0 +1,30 @@
+#btn{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.container{
+    padding-top:7%;
+}
+#description{
+    height: 250px !important;
+}
+.ql-editor{
+    height: 90% !important;
+}
+.ql-container.ql-snow {
+    border: 2px solid rgba(0,0,0,0.3) !important;
+}
+.ql-toolbar.ql-snow{
+    border-top: 2px solid rgba(0,0,0,0.3) !important;
+    border-right:2px solid rgba(0,0,0,0.3) !important;
+    border-left: 2px solid rgba(0,0,0,0.3) !important;
+}
