@@ -1,0 +1,26 @@
+#art{
+    height:50%;
+    width:50%;
+}
+#post{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#author{
+    color:black;
+}
+#author:hover{
+    color:dodgerblue;
+}
+#viewbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.bar{
+    float: left;
+    padding:10px;
+}

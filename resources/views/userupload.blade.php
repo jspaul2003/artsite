@@ -1,6 +1,5 @@
 @extends('main')
 @push('head')
-    <title>Laravel Multiple Images Upload Using Dropzone</title>
     <meta name="_token" content="{{csrf_token()}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css">
     <link rel="stylesheet" href="/css/upload.css">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use App\ImageUpload;
 
 class ImageUploadController extends Controller
@@ -56,5 +57,21 @@ class ImageUploadController extends Controller
             unlink($path);
         }
         return $filename;
+    }
+
+    public function show($filename)
+    {
+        DB::table('image_uploads')->where('filename', $filename)->increment('views',1);
+        $post = DB::table('image_uploads')->where('filename', $filename)->first();
+        return view('post')->with([
+            'title'=>$post->title,
+            'filename'=>$post->filename,
+            'description'=>$post->description,
+            'user'=>$post->user,
+            'tags'=>$post->tags,
+            'views'=> $post->views,
+            'likes'=>$post->likes,
+            'createdat'=>$post->created_at
+        ]);
     }
 }

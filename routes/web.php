@@ -26,3 +26,4 @@ Route::post('image/delete','ImageUploadController@fileDestroy');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/art/{filename}', 'ImageUploadController@show');
