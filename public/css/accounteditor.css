@@ -1,0 +1,62 @@
+html{
+    padding-left:5%;
+}
+
+.profilepic {
+    width: 250px;
+    height:250px;
+    border: 1px solid;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top center;
+    object-fit: cover;
+}
+#img-container{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#dropzone{
+    width:250px;
+    border: none !important;
+    padding: 0% !important;
+}
+
+#bigdiv{
+    position: relative;
+    max-width:300px;
+}
+
+
+
+
+#btn{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 10px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+#cancel{
+    background-color: white;
+    border: 2px solid darkslategrey;
+    color: darkslategrey;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}

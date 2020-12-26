@@ -79,15 +79,10 @@ footer{
     padding-left: 2%;
 }
 header{
-    background-color: rgba(36, 35, 35,0.95);
-    z-index: 999;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     position: fixed;
     right: 0;
     left: 0;
-    top:-1px;
+    z-index: 90000;
 }
 #upload{
     padding-top:7%;
@@ -95,4 +90,32 @@ header{
 
 #gap{
     padding-bottom:7%;
+}
+
+.ql-container{
+    border-radius: 5px;
+}
+.navbar-inverse{
+    margin: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.alert-danger{
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #4691f6;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
 }

@@ -1,6 +1,8 @@
 #art{
-    height:50%;
-    width:50%;
+    height:auto;
+    width:auto;
+    max-width:500px;
+    max-height:500px;
 }
 #post{
     padding-right: 15px;
@@ -9,7 +11,7 @@
     margin-left: auto;
 }
 #author{
-    color:black;
+    color: #444444;
 }
 #author:hover{
     color:dodgerblue;
@@ -24,3 +26,7 @@
     float: left;
     padding:10px;
 }
+#postlike{
+    width:9%;
+}
+

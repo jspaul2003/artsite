@@ -2,7 +2,7 @@
     background-color: dodgerblue;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -10,6 +10,11 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5%;
+}
+#btn:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
 }
 .container{
     padding-top:7%;
@@ -21,10 +26,41 @@
     height: 90% !important;
 }
 .ql-container.ql-snow {
-    border: 2px solid rgba(0,0,0,0.3) !important;
+    border: 1px solid rgba(0,0,0,0.3) !important;
 }
 .ql-toolbar.ql-snow{
-    border-top: 2px solid rgba(0,0,0,0.3) !important;
-    border-right:2px solid rgba(0,0,0,0.3) !important;
-    border-left: 2px solid rgba(0,0,0,0.3) !important;
+    border-top: 1px solid rgba(0,0,0,0.3) !important;
+    border-right:1px solid rgba(0,0,0,0.3) !important;
+    border-left: 1px solid rgba(0,0,0,0.3) !important;
+}
+
+#description{
+    border-radius: 0px 0px 5px 5px !important;
+    border-top: 1px solid rgba(0,0,0,0.3) !important;
+}
+
+.ql-toolbar{
+    border-radius: 5px 5px 0px 0px !important;
+    border-bottom: 0px solid rgba(0,0,0,0.3) !important;
+}
+
+#dropzone, .jumbotron{
+    border-radius: 10px !important;
+    border:none;
+    background-color:#f4f3f3;
+}
+
+#extracom{
+    color:dodgerblue;
+    display: inline-block;
+}
+
+
+.dz-preview{
+    background-color:#f4f3f3 !important;
+}
+
+.alert-warning{
+    margin: 0px;
+    border-radius: 0px;
 }

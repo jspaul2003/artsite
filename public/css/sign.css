@@ -10,6 +10,12 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5%;
+    border: 1px solid white;
+}
+#btn:hover {
+    background-color: white;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
 }
 #formarea{
     margin-right: 5%;

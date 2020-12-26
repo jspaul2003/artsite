@@ -22,6 +22,10 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('profilefile');
             $table->string('about');
+            $table->string('location');
+            $table->boolean('showmail');
+            $table->boolean('showloc');
+            $table->boolean('showliked');
             $table->rememberToken();
             $table->timestamps();
         });
@@ -35,5 +39,6 @@ class CreateUsersTable extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
+
     }
 }

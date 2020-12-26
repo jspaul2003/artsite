@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'username', 'password', 'profilefile', 'about',
+        'name', 'email', 'username', 'password', 'profilefile', 'about','location','showmail','showloc','showliked','posts',
     ];
 
     /**
@@ -36,4 +36,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function image_uploads() {
+        # User has some posts!
+        # Define a one-to-many relationship
+        return $this->hasMany('App\ImageUpload');
+    }
+
+    public function lposts()
+    {
+        # With timestamps() will ensure the pivot table has its created_at/updated_at fields automatically maintained
+        return $this->belongsToMany(ImageUpload::class);
+    }
 }

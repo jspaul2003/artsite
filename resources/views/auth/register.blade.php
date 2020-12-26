@@ -3,6 +3,22 @@
     <link href='/css/sign.css' type='text/css' rel='stylesheet'>
 @endpush
 
+
+@section('extra_header_notification')
+    @if(count($errors) > 0)
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Oh No! </strong>
+            <ul id='ule'>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+@endsection
+
+
 @section('data')
     <section id='formarea'>
         <h2>Create your new account</h2>
@@ -10,7 +26,7 @@
         <form method="post" action='{{ route('register') }}'>
             {{ csrf_field() }}
             <br>
-            <p>Name
+            <p>
                 <input id='name'
                 type='text'
                 name='name'
@@ -20,7 +36,7 @@
                <p class='extra'>This is required</p>
             </p>
             <br>
-            <p>Your Username
+            <p>
                 <input
                         id='username'
                         type='text'
@@ -31,7 +47,7 @@
             </p>
             <p class='extra'>This is what others will see</p>
             <br>
-            <p>Your Email
+            <p>
                 <input
                         id='email'
                         type='email'
@@ -42,7 +58,7 @@
             </p>
             <p class='extra'>This is what you will use to login with</p>
             <br>
-            <p>Password
+            <p>
                 <input type="password"
                        name="password"
                        id="password"
@@ -53,7 +69,7 @@
             <p class='extra'>Use at least 6 characters</p>
             </p>
             <br>
-            <p>Confirm Password
+            <p>
                 <input id='password-confirm'
                        type='password'
                        name='password_confirmation'
@@ -73,16 +89,9 @@
             <br>
             <br>
             <br>
+            <a id='extra2' href='/login'>Login instead</a>
+            <br>
+            <br>
         </form>
     </section>
-    @if(count($errors) > 0)
-        <section id='results'>
-            <h2 class='note'>Uh oh! </h2>
-            <ul id='ule'>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </section>
-    @endif
 @endsection

@@ -6,15 +6,14 @@
 @section('data')
     <section id='formarea'>
         <h2>Login</h2>
-        <p>Login here!</p>
         <br>
         <form method="post" action='{{route('login')}}'>
             {{ csrf_field() }}
-            <p>Email
-                <input id='email' type='email' name='email' value='{{ old('email') }}' placeholder='Password' required>
+            <p>
+                <input id='email' type='email' name='email' value='{{ old('email') }}' placeholder='Email' required>
             </p>
             <br>
-            <p>Password
+            <p>
                 <input type="password" name="password" id="password" placeholder='Password' required>
             </p>
             <br>
