@@ -139,8 +139,8 @@
                         console.log(user);
                         var dt = new Date();
                         var time = dt.getTime();
-                        document.getElementById('filename').value=(time+'_'+user+file.name).replace(' ', '_');
-                        return (time+'_'+user+file.name).replace(' ', '_');
+                        document.getElementById('filename').value=(time+'_'+user+file.name).replace(/\s/g, '_');
+                        return (time+'_'+user+file.name).replace(/\s/g, '_');
                     },
                     accept: function(file, done) {
                         console.log("uploaded");
