@@ -25,9 +25,9 @@ class CreateUsersTable extends Migration
             $table->string('location');
             $table->boolean('showmail');
             $table->boolean('showloc');
-            $table->boolean('showliked');
             $table->rememberToken();
             $table->timestamps();
+            $table->integer('posts');
         });
     }
 

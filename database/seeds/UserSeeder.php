@@ -21,7 +21,8 @@ class UserSeeder extends Seeder
             'about' => "",
             'location'=> "",
             'showmail'=>0,
-            'showloc'=>0
+            'showloc'=>0,
+            'posts'=>0
 
         ]);
     }
