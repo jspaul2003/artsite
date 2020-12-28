@@ -5,8 +5,8 @@
 
 @section('data')
     <section id='formarea'>
-        <h1>Reset</h1>
-        <p>Reset Your password here; An email will be sent to you!</p>
+        <h1>Reset Password</h1>
+
         @if (session('status'))
             <div class="alert alert-success">
                 {{ session('status') }}
@@ -15,9 +15,9 @@
         <form method="post" action='{{ route('password.email') }}'>
             {{ csrf_field() }}
             <br>
-            <p>Email
-                <input id='email' type='email' name='email' value='{{ old('email') }}' required>
-               (This is required)
+            <p>
+                <input id='email' type='email' name='email' value='{{ old('email') }}' placeholder="Email" required>
+               <p class='extra'>This is required</p>
             </p>
             <br>
             <input type="submit" value='Reset' id='btn'>
@@ -27,14 +27,16 @@
         </form>
     </section>
     @if(count($errors) > 0)
-        <section id='results'>
-            <h2 class='note'>Uh Oh! </h2>
-            <img src='/img/cross.png' id='cr' alt='cross'>
+        @section('extra_header_notification')
+                                    <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Oh No! </strong>
             <ul id='ule'>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
                 @endforeach
             </ul>
-        </section>
+                                    </div>
+                                        @endsection
     @endif
 @endsection

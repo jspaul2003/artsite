@@ -20,7 +20,11 @@
             <input type="submit" value='Login' id='btn'>
             <br>
             <br>
+
+            <a id='extra2' href='/password/reset'>Forgot Password?</a>
             <br>
+            <br>
+
             <a id='extra2' href='/register'>Create Account</a>
         </form>
     </section>

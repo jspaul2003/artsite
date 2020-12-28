@@ -79,11 +79,11 @@
                             <a href="/art/'. $f->id . '">
                             <img class="default" src="/images/'. $file .'">
                             <div class="centered">Writing</div>
-                            <h5><p class="titus">'
+                            <h5><div class="titus">'
                                     .$f->title.
-                                    '</p></h5><p class="titus">'
+                                    '</div></h5><div class="titus">'
                                     .$f->user.
-                                    '</p></a>
+                                    '</div></a>
                         </div>';
                                 $x1++;
 
@@ -106,11 +106,11 @@
                         <div class="gallery">
                             <a href="/art/'. $f->id . '">
                             <img src="/images/'. $file .'">
-                            <h5><p class="titus">'
+                            <h5><div class="titus">'
                                 .$f->title.
-                                '</p></h5><p class="titus">'
+                                '</div></h5><div class="titus">'
                                 .$f->user.
-                                '</p></a>
+                                '</div></a>
                         </div>';
                             $x1++;
 

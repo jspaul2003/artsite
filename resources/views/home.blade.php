@@ -13,12 +13,12 @@
     <br>
 
 
-<div class="grid-container">
+
     <h2><a class="all" href="/home/1/viewed">
             Most Viewed
         </a>
     </h2>
-</div>
+
 
 <p></p>
 <br>
@@ -47,11 +47,11 @@ foreach ($viewed as $fullfile) {
                     <img class="default" src="images/'. $file .'">
                     <div class="centered">Writing</div>
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                 .$fullfile->title.
-                '</p></h5><p class="titus">'
+                '</div></h5><div class="titus">'
                 .$fullfile->user.
-                '</p></a>
+                '</div></a>
             </div>';
         }
 
@@ -66,11 +66,11 @@ foreach ($viewed as $fullfile) {
                  <a href="art/'. $fullfile->id . '">
                     <img src="images/'. $file .'">
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                 .$fullfile->title.
-                '</p></h5><p class="titus">'
+                '</div></h5><div class="titus">'
                 .$fullfile->user.
-                '</p></a>
+                '</div></a>
             </div>';
         }
     }
@@ -85,10 +85,10 @@ foreach ($viewed as $fullfile) {
 <p></p>
 <br>
 
-<div class="grid-container">
+
 
     <h2><a class="all" href="/home/1/liked">Most Liked</a></h2>
-</div>
+
 <p></p>
 <br>
 <p></p>
@@ -155,12 +155,12 @@ foreach ($viewed as $fullfile) {
 <p></p>
 <br>
 
-<div class="grid-container">
+
     <h2><a class="all" href="/home/1/new">
             New
         </a>
     </h2>
-</div>
+
 <p></p>
 <br>
 <p></p>

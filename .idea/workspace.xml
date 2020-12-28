@@ -2,50 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a0b3c5-e722-4e10-a320-19b580cff352" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_24_12_2020__03_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountEditorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CoolController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LikerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/account.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/accounteditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootswatch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/myposts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/account.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/accounteditor.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/all.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/myposts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/postsearch.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/support.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/useraccount.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/usersearch.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/editpost.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artsite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CoolController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ImageUploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageUploadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ImageUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ImageUpload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_14_040206_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_14_040206_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/fix.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fix.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/post.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/sign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/upload.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/upload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1587548561915IMG_8299 2.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/userupload.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/userupload.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/postsearch.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/postsearch.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +196,6 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
-      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
@@ -283,7 +257,6 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
-      <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
@@ -302,6 +275,12 @@
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -424,7 +403,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -432,6 +411,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/resources/views/auth" />
     </key>
@@ -468,7 +448,7 @@
       <workItem from="1593726201785" duration="2260000" />
       <workItem from="1596976902481" duration="886000" />
       <workItem from="1608663761083" duration="10051000" />
-      <workItem from="1608781065470" duration="51852000" />
+      <workItem from="1608781065470" duration="66125000" />
     </task>
     <servers />
   </component>

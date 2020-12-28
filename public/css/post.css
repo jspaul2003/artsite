@@ -14,7 +14,8 @@
     color: #444444;
 }
 #author:hover{
-    color:dodgerblue;
+    color:#444444;
+    text-decoration: none;
 }
 #viewbar{
     list-style-type: none;
@@ -25,8 +26,15 @@
 .bar{
     float: left;
     padding:10px;
+    max-width: 250px;
 }
-#postlike{
-    width:9%;
+
+
+#editthing{
+    float:left !important;
+}
+.like{
+    max-width: 100px !important;
+
 }
 

@@ -5,16 +5,28 @@
 
 @section('data')
 <section id='post'>
-    <h1>{!! $title !!}</h1>
-    <h3><a id='author' href='/people/{{$user}}'>{{$user}}</a></h3>
+    <h1 #id="mytitle">{!! $title !!}</h1>
+
+    <h3><a id='author' href='/people/{{$user}}'>{{$user}}</a>
+
+    </h3>
     <br>
     <br>
-    <img id= 'art' src='/images/{{$filename}}' alt='{{ $title }}'>
-    <br>
-    <br>
-    <h3>Description</h3>
-    <h4>{!! $description !!}</h4>
-    <br>
+    <?php
+    $path=public_path().'/images/'.$filename;
+    ?>
+    @if(file_exists($path))
+        <img id= 'art' src='/images/{{$filename}}' alt='{{ $title }}'>
+    @endif
+    @if(strlen(strip_tags($description))>0)
+        @if(file_exists($path))
+            <br>
+            <br>
+        <h3>Description</h3>
+        @endif
+        <h4>{!! $description !!}</h4>
+        <br>
+    @endif
     <ul id='viewbar'>
         <li><h3 class='bar'>Views<br>{{$views}}</h3></li>
         <li><h3 class='bar'>Likes<br>{{$likes}}</h3></li>
@@ -39,6 +51,17 @@
                 <form action="/register">
                     <h3 class='bar'><input type="image" src="/img/clearthumbsup.png" alt="Submit" name="Like" class="like" id="postlike"/></h3>
                 </form>
+            @endif
+        </li>
+        <li>
+            @if(Auth::check() and Auth::user()['username']==$user)
+                <h3 class="bar">
+                    <div id="editthing" >
+                        <ul class="nav nav-pills">
+                            <li class="active"><a id='edit' href='/art/{{$fileid}}/update'>Edit<span class="badge"></span></a></li>
+                        </ul>
+                    </div>
+                </h3>
             @endif
         </li>
     </ul>

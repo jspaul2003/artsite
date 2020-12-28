@@ -55,3 +55,12 @@ p {
     position: relative;
     text-align: center;
 }
+
+.titus{
+    text-align:left;
+    color:#444444 !important;
+}
+.titus:hover{
+    color:#444444 !important;
+    text-decoration: none !important;
+}

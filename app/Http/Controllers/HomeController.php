@@ -5,7 +5,7 @@ use App\ImageUpload;
 
 use Illuminate\Http\Request;
 
-class CoolController extends Controller
+class HomeController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -14,7 +14,7 @@ class CoolController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except('index');
+        $this->middleware('auth')->except('index','allthereis');
     }
 
     /**
