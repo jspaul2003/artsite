@@ -7,6 +7,8 @@
 
 <h1 id="page_title">Home</h1>
 
+<?php //phpinfo(); ?>
+
     <p></p>
     <br>
     <p></p>

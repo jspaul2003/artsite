@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b4de2832c1eaeeb89fcea8f0ae1f87a98469cc79',
+    'reference' => '39c50fdc14ca0a01f10462cccdbafb0cfe7b368e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -81,12 +81,12 @@
     ),
     'egulias/email-validator' => 
     array (
-      'pretty_version' => '2.1.24',
-      'version' => '2.1.24.0',
+      'pretty_version' => '2.1.25',
+      'version' => '2.1.25.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ca90a3291eee1538cd48ff25163240695bd95448',
+      'reference' => '0dbf5d78455d4d6a41d186da50adc1122ec066f4',
     ),
     'erusev/parsedown' => 
     array (
@@ -379,7 +379,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b4de2832c1eaeeb89fcea8f0ae1f87a98469cc79',
+      'reference' => '39c50fdc14ca0a01f10462cccdbafb0cfe7b368e',
     ),
     'laravel/tinker' => 
     array (
@@ -612,8 +612,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 

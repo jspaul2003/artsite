@@ -49,9 +49,10 @@
                             <li><a href="/account">Profile</a></li>
 
                             <li><a href="{{ url('/logout') }}">Logout</a></li>
-
+				<!--
                             <li class="divider"></li>
                             <li><a href="#">Support</a></li>
+				-->
                         </ul>
 
                         </li>
@@ -64,9 +65,10 @@
                                 <li><a href="/register">Sign Up</a></li>
 
                                 <li><a href="/login">Login</a></li>
-
+				<!--
                                 <li class="divider"></li>
                                 <li><a href="#">Support</a></li>
+				-->
                             </ul>
 
                         </li>

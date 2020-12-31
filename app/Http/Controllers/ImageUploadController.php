@@ -17,7 +17,7 @@ class ImageUploadController extends Controller
             return view('userupload');
         }
         else{
-            return view('home');
+            return redirect('/home');
         }
     }
 
@@ -28,15 +28,18 @@ class ImageUploadController extends Controller
         header("Pragma: no-cache");
         header('Content-Type: text/html');
         //dump($request);
+	//dump(public_path('images'));
         //dump($request->hasFile('file'));
-        //dump((file_exists(public_path().'/images/'.$request['filename'])));
+        //dump((file_exists(public_path().'/images/')));
         //dump($request['filename']);
         //dump(file_exists(public_path().'/images/'.$request['filename']));
         if($request->hasFile('file')) {
+		//dump("gay");
             $image = $request->file('file');
             $imageName = $image->getClientOriginalName();
             $image->move(public_path('images'), $imageName);
             $this->lastname=$imageName;
+return response()->json(['success'=>$imageName]);
         }
         else {
             if(strlen(strip_tags($request['title']))>0 and ((file_exists(public_path().'/images/'.$request['filename'])) or !(strlen(strip_tags($request['description']))==0)) ){
