@@ -117,9 +117,9 @@ foreach ($viewed as $fullfile) {
                     <img class="default" src="images/'. $file .'">
                     <div class="centered">Writing</div>
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                         .$fullfile->title.
-                        '</p></h5><p class="titus">'
+                        '</div></h5><p class="titus">'
                         .$fullfile->user.
                         '</p></a>
             </div>';
@@ -136,9 +136,9 @@ foreach ($viewed as $fullfile) {
                  <a href="art/'. $fullfile->id . '">
                     <img src="images/'. $file .'">
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                         .$fullfile->title.
-                        '</p></h5><p class="titus">'
+                        '</div></h5><p class="titus">'
                         .$fullfile->user.
                         '</p></a>
             </div>';
@@ -190,9 +190,9 @@ foreach ($viewed as $fullfile) {
                     <img class="default" src="images/'. $file .'">
                     <div class="centered">Writing</div>
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                         .$fullfile->title.
-                        '</p></h5><p class="titus">'
+                        '</div></h5><p class="titus">'
                         .$fullfile->user.
                         '</p></a>
             </div>';
@@ -209,9 +209,9 @@ foreach ($viewed as $fullfile) {
                  <a href="art/'. $fullfile->id . '">
                     <img src="images/'. $file .'">
                 </a>
-                <h5><p class="titus">'
+                <h5><div class="titus">'
                     .$fullfile->title.
-                    '</p></h5><p class="titus">'
+                    '</div></h5><p class="titus">'
                     .$fullfile->user.
                     '</p></a>
             </div>';
