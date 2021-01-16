@@ -34,7 +34,6 @@ class ImageUploadController extends Controller
         //dump($request['filename']);
         //dump(file_exists(public_path().'/images/'.$request['filename']));
         if($request->hasFile('file')) {
-		//dump("gay");
             $image = $request->file('file');
             $imageName = $image->getClientOriginalName();
             $image->move(public_path('images'), $imageName);
@@ -60,10 +59,10 @@ return response()->json(['success'=>$imageName]);
                 $this->clock = 0;
 
                 #liking the post
-                $post = DB::table('image_uploads')->where('filename', $request['filename'])->first();
-                Auth::user()->lposts()->sync([$post->id,]);
+                //$post = DB::table('image_uploads')->where('filename', $request['filename'])->first();
+                Auth::user()->lposts()->sync([$imageUpload->id,]);
 
-                return redirect('/art/' . $post->id);
+                return redirect('/art/' . $imageUpload->id);
             }
             elseif(strlen(strip_tags($request['title']))>0){
                 $error="Whoops, you'll need a description or an image";
