@@ -119,3 +119,11 @@ header{
     stroke: #4691f6;
     stroke-width: 1;
 }
+
+#my_content{
+    position:relative !important;
+}
+
+header{
+    position:relative !important;
+}

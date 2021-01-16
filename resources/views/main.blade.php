@@ -2,7 +2,7 @@
         <!doctype html>
 <html lang='en'>
 <head>
-    <title>Covart</title>
+    <title>Unlocked Art</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -21,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Covart</a>
+                <a class="navbar-brand" href="/">Unlocked Art</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -49,10 +49,10 @@
                             <li><a href="/account">Profile</a></li>
 
                             <li><a href="{{ url('/logout') }}">Logout</a></li>
-				<!--
+
                             <li class="divider"></li>
-                            <li><a href="#">Support</a></li>
-				-->
+                            <li><a href="#">Need Help? <br> Email: help@unlockedart.com</a></li>
+
                         </ul>
 
                         </li>
@@ -65,10 +65,10 @@
                                 <li><a href="/register">Sign Up</a></li>
 
                                 <li><a href="/login">Login</a></li>
-				<!--
+
                                 <li class="divider"></li>
-                                <li><a href="#">Support</a></li>
-				-->
+                                <li><a href="#">Need Help? <br> Email: help@unlockedart.com</a></li>
+
                             </ul>
 
                         </li>
@@ -83,7 +83,9 @@
     @yield('extra_header_notification')
 </header>
 <section id='gap'></section>
+<div id="my_content">
 @yield('data')
+</div>
 <br>
 <br>
 <br>

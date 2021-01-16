@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="68a0b3c5-e722-4e10-a320-19b580cff352" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/userupload.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/userupload.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Notifications/ResetPassword.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,78 +16,6 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="useraccount.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/useraccount.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <marker date="1608695282698" expanded="true" signature="9:15" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="23:29" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="102:108" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="120:125" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="126:157" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="157:166" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="183:207" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="263:275" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="369:385" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="421:429" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="463:483" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="463:494" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="463:496" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="571:580" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="608:615" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="608:617" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="695:701" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="696:701" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="761:770" ph="..." />
-                <marker date="1608695282698" expanded="true" signature="815:820" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/account.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="52" />
-              <folding>
-                <marker date="1608694724859" expanded="true" signature="9:15" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="23:29" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="118:124" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="134:147" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="167:187" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="224:248" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="269:308" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="368:395" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="505:536" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="580:603" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="649:684" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="763:787" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="887:908" ph="..." />
-                <marker date="1608694724859" expanded="true" signature="1088:1112" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="98" lean-forward="false" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="98" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -431,6 +362,9 @@
       <workItem from="1596976902481" duration="886000" />
       <workItem from="1608663761083" duration="10051000" />
       <workItem from="1608781065470" duration="69407000" />
+      <workItem from="1610825774458" duration="21000" />
+      <workItem from="1610825821906" duration="53000" />
+      <workItem from="1610825890913" duration="1928000" />
     </task>
     <servers />
   </component>
@@ -464,9 +398,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/useraccount.blade.php">
